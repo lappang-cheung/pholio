@@ -13,9 +13,9 @@ Pholio is a simple solution for students & professionals who does not have time 
 
 ## Technology Stack
 
-NodeJs
-MongoDB
-ExpressJs
-Web Component
-Service Workers
-Heroku
+- NodeJs
+- MongoDB
+- ExpressJs
+- Web Component
+- Service Workers
+- Heroku
