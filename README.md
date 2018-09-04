@@ -5,6 +5,7 @@ Register, login and give us a little bit of information....we have the portfolio
 ## Table of Contents
 - [Introduction](#introduction)
 - [Technology Stack](#technology-stack)
+- [Authors](#authors)
 
 ## Introduction
 What is Pholio?
@@ -19,3 +20,7 @@ Pholio is a simple solution for students & professionals who does not have time 
 - Web Component
 - Service Workers
 - Heroku
+
+## Authors
+- Leo Cheung (lappangcheung@gmail.com)
+- Saleh Abdel Motaal
