@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "node lib/server.js"
+    "server": "nodemon lib/server.js"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,11 @@
   },
   "homepage": "https://github.com/lappang-cheung/pholio#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "mongoose": "^5.2.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
   }
 }
