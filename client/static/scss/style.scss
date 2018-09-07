@@ -1,3 +1,33 @@
+$main:      #34314c;
+$secondary: #9592ad;
+$border:    #d9dee9;
+
+$highlight_1: #fd6473;
+$highlight_2: #fec951;
+$highlight_3: #47b8e0;
+$highlight_4: #9f68d0;
+
 body{
     font-family: 'Montserrat', sans-serif;
+}
+
+.border {
+    height: 6px;
+    border: 0;
+    background-color: $highlight_1;
+    background-image: linear-gradient(
+        to right,
+        $highlight_1,
+        $highlight_1 25%,
+        $highlight_2 25%,
+        $highlight_2 50%,
+        $highlight_3 50%,
+        $highlight_3 75%,
+        $highlight_4 75%,
+        $highlight_4 100%,
+        $highlight_4 100%
+    );
+    -webkit-background-size: 50% 100%;
+    -moz-background-size: 50% 100%;
+    background-size: 50% 100%;
 }

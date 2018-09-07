@@ -1,2 +1,11 @@
 body {
   font-family: 'Montserrat', sans-serif; }
+
+.border {
+  height: 6px;
+  border: 0;
+  background-color: #fd6473;
+  background-image: linear-gradient(to right, #fd6473, #fd6473 25%, #fec951 25%, #fec951 50%, #47b8e0 50%, #47b8e0 75%, #9f68d0 75%, #9f68d0 100%, #9f68d0 100%);
+  -webkit-background-size: 50% 100%;
+  -moz-background-size: 50% 100%;
+  background-size: 50% 100%; }
