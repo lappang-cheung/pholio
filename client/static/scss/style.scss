@@ -103,6 +103,12 @@ body{
         z-index: 1;
         display: table;
         width: 100%;
+
+        transition: all .3s ease-in-out;
+        &:hover{
+            cursor: pointer;
+            box-shadow: 0px 2px 40px 0 rgba(0 ,0 , 0, 0.1);
+        }
     }
     .img, .info, .job_type{
         display: table-cell;
@@ -155,6 +161,34 @@ body{
             position: absolute;
             left: -20px;
             top: 28px;
+        }
+    }
+
+    .full_time{
+        color: $highlight_1;
+        &:before{
+            background: $highlight_1;
+        }
+    }
+
+    .part_time{
+        color: $highlight_2;
+        &:before{
+            background: $highlight_2;
+        }
+    }
+
+    .freelance{
+        color: $highlight_3;
+        &:before{
+            background: $highlight_3;
+        }
+    }
+
+    .new_grad{
+        color: $highlight_4;
+        &:before{
+            background: $highlight_4;
         }
     }
 }

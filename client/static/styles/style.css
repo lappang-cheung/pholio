@@ -66,7 +66,11 @@ body {
     position: relative;
     z-index: 1;
     display: table;
-    width: 100%; }
+    width: 100%;
+    transition: all .3s ease-in-out; }
+    #timeline .listing:hover {
+      cursor: pointer;
+      box-shadow: 0px 2px 40px 0 rgba(0, 0, 0, 0.1); }
   #timeline .img, #timeline .info, #timeline .job_type {
     display: table-cell;
     vertical-align: middle;
@@ -109,3 +113,19 @@ body {
       position: absolute;
       left: -20px;
       top: 28px; }
+  #timeline .full_time {
+    color: #fd6473; }
+    #timeline .full_time:before {
+      background: #fd6473; }
+  #timeline .part_time {
+    color: #fec951; }
+    #timeline .part_time:before {
+      background: #fec951; }
+  #timeline .freelance {
+    color: #47b8e0; }
+    #timeline .freelance:before {
+      background: #47b8e0; }
+  #timeline .new_grad {
+    color: #9f68d0; }
+    #timeline .new_grad:before {
+      background: #9f68d0; }
