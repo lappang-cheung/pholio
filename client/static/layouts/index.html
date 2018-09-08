@@ -11,64 +11,93 @@
 </head>
 <body>
     <div class="border"></div>
-    <div class="wrapper">
-        <header class="main_header clearfix">
-            <div class="logo">
-                <img src="../images/logo.png" alt="landing-logo">
-                <h1>Phi<span>lio</span></h1>
+        <div class="wrapper">
+            <header class="main_header clearfix">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="../images/logo.png" alt="landing-logo">
+                    </a>
+                    <h1>Phi<span>lio</span></h1>
+                </div>
+                <div class="nav">
+                    <a href="#" class="current">Who Are We</a>
+                    <a href="#">Join Us</a>
+                    <a href="profile.html">Profiles</a>
+                    <a href="#">Contact</a>
+                </div>
+            </header>
+        </div>
+        <hr>
+        <section id="whoarewe">
+            <div class="wrapper">
+                <h1 class="landing_header">Hello!!!</h1>
+                <p class="landing_subheader">
+                    Philio is quick solution for professionals, students and other individuals who are too busy to create their resumes and portfolios.
+                    All Philio needs is some basic information about you such as job experience, projects and etc. After that the resume and portfolio will
+                    be generated with our responsive templates.
+                </p>
             </div>
-            <div class="nav">
-                <a href="#" class="current">Home</a>
-                <a href="#">Who Are We</a>
-                <a href="#">Join Us</a>
-                <a href="profile.html">Profiles</a>
-                <a href="#">Contact</a>
+        </section>
+        <hr>
+        <section id="joinus" class="wrapper">
+            <h1>New Members</h1>
+            <ul id="timeline">
+                <li class="alphaOrder"> New </li>
+                <a href="#">
+                    <li class="listing clearfix">
+                        <div class="image_wrapper">
+                            <img src="../images/woman.png" alt="amyyoung">
+                        </div>
+                        <div class="info">
+                            <span class="job_title">Linux Engineer</span>
+                            <span class="job_info">Redhat <span>&bull;</span> Dulan <span>&bull;</span> Amy Young</span>
+                        </div>
+                        <span class="job_type freelance">Freelance</span>
+                    </li>
+                </a>
+
+                <a href="#">
+                    <li class="listing clearfix">
+                        <div class="image_wrapper">
+                            <img src="../images/girl.png" alt="jennysmith">
+                        </div>
+                        <div class="info">
+                            <span class="job_title">Market Engineer</span>
+                            <span class="job_info">Salesforce <span>&bull;</span> New York  <span>&bull;</span> Jenny Smith</span>
+                        </div>
+                        <span class="job_type part_time">Part-Time</span>
+                    </li>
+                </a>
+
+                <a href="#">
+                    <li class="listing clearfix">
+                        <div class="image_wrapper">
+                            <img src="../images/boy.png" alt="johndone">
+                        </div>
+                        <div class="info">
+                            <span class="job_title">UX Designer</span>
+                            <span class="job_info">Twitter <span>&bull;</span> San Franciso  <span>&bull;</span> John Doe</span>
+                        </div>
+                        <span class="job_type full_time">Full-Time</span>
+                    </li>
+                </a>
+
+                <div class="load_more">
+                    <button class="button">Join Us</button>
+                </div>
+            </ul>
+        </section>
+        <hr>
+        <section id="contact">
+            <div class="wrapper">
+                <h1>Contact Us</h1>
+                <h4>Email: philio@admin.com</h6>
             </div>
-        </header>
-
-        <ul id="timeline">
-
-            <li class="alphaOrder"> New </li>
-
-            <a href="#">
-                <li class="listing clearfix">
-                    <div class="image_wrapper">
-                        <img src="../images/woman.png" alt="amyyoung">
-                    </div>
-                    <div class="info">
-                        <span class="job_title">Linux Engineer</span>
-                        <span class="job_info">Redhat <span>&bull;</span> Dulan <span>&bull;</span> Amy Young</span>
-                    </div>
-                    <span class="job_type freelance">Freelance</span>
-                </li>
-            </a>
-
-            <a href="#">
-                <li class="listing clearfix">
-                    <div class="image_wrapper">
-                        <img src="../images/girl.png" alt="jennysmith">
-                    </div>
-                    <div class="info">
-                        <span class="job_title">Market Engineer</span>
-                        <span class="job_info">Salesforce <span>&bull;</span> New York  <span>&bull;</span> Jenny Smith</span>
-                    </div>
-                    <span class="job_type part_time">Part-Time</span>
-                </li>
-            </a>
-
-            <a href="#">
-                <li class="listing clearfix">
-                    <div class="image_wrapper">
-                        <img src="../images/boy.png" alt="johndone">
-                    </div>
-                    <div class="info">
-                        <span class="job_title">UX Designer</span>
-                        <span class="job_info">Twitter <span>&bull;</span> San Franciso  <span>&bull;</span> John Doe</span>
-                    </div>
-                    <span class="job_type full_time">Full-Time</span>
-                </li>
-            </a>
-        </ul>
-    </div>
+        </section>
+        <footer>
+            <div class="wrapper">
+                Philio &copy; 2018
+            </div>
+        </footer>
 </body>
 </html>

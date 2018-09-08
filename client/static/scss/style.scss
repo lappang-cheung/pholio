@@ -258,6 +258,7 @@ body{
 }
 
 @media only screen and (max-width: 600px){
+
     #timeline {
         .listing{
             .img_wrapper{
@@ -277,6 +278,17 @@ body{
             .job_type{
                 display: none;
             }
+        }
+    }
+}
+
+@media only screen and (max-width: 400px){
+
+    .nav {
+        width: 100%;
+        a{
+            margin: 0 .1em;
+            font-size: .9em;
         }
     }
 }
