@@ -90,6 +90,7 @@ body{
     position: relative;
     list-style: none;
     padding: 0;
+
     a{
         text-decoration: none;
     }
@@ -111,7 +112,7 @@ body{
         }
     }
 
-    .date {
+    .alphaOrder {
         display: inline-block;
         padding: .6em 0;
         width: 100px;
@@ -205,6 +206,25 @@ body{
         color: $highlight_4;
         &:before{
             background: $highlight_4;
+        }
+    }
+}
+
+.load_more {
+    text-align: center;
+    .button {
+        border: 2px solid $highlight_4;
+        outline: none;
+        padding: 1em 3.5em;
+        text-align: center;
+        background: transparent;
+        font-weight: 700;
+        border-radius: 3em;
+        color: $highlight_4;
+        transition: all .3s ease-in-out;
+        &:hover{
+            border: 2px solid $main;
+            color: $main;
         }
     }
 }
