@@ -1,6 +1,7 @@
 $main:      #34314c;
 $secondary: #9592ad;
 $border:    #d9dee9;
+$white:     #ffffff;
 
 $highlight_1: #fd6473;
 $highlight_2: #fec951;
@@ -81,5 +82,79 @@ body{
     .current {
         font-weight: 700;
         color: $main;
+    }
+}
+
+#timeline {
+    width: 100%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    a{
+        text-decoration: none;
+    }
+    .listing{
+        background: $white;
+        border: 1px solid $border;
+        border-radius: .3em;
+        padding: 1em;
+        margin-bottom: 1em;
+        position: relative;
+        z-index: 1;
+        display: table;
+        width: 100%;
+    }
+    .img, .info, .job_type{
+        display: table-cell;
+        vertical-align: middle;
+        font-size: .9em;
+        color: $secondary
+    }
+    .image_wrapper{
+        width: 60px;
+        img{
+            width: 60px;
+            display: block;
+            margin: 0 auto;
+            border-radius: .25em;
+        }
+    }
+
+    .info{
+        line-height: 1.25;
+        width: 640px;
+        padding-left: 25px;
+        .job_title{
+            font-weight: 700;
+            color: $main;
+            font-size: 1.5em;
+        }
+        .job_info {
+            color: $secondary;
+            display: block;
+            span {
+                margin: 0 .75em;
+            }
+        }
+    }
+
+    .job_type {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: .75em;
+        position: relative;
+        white-space: nowrap;
+        padding-top: .6em;
+        width: 100px;
+        &:before{
+            content: " ";
+            background: $highlight_1;
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            position: absolute;
+            left: -20px;
+            top: 28px;
+        }
     }
 }
