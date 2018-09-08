@@ -103,7 +103,7 @@ body{
         position: relative;
         z-index: 1;
         display: table;
-        width: 100%;
+        width: 96%;
 
         transition: all .3s ease-in-out;
         &:hover{
@@ -225,6 +225,58 @@ body{
         &:hover{
             border: 2px solid $main;
             color: $main;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .main_header {
+        margin: 3em 0;
+    }
+
+    .logo {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        img {
+            float: none;
+        }
+        h1{
+            float: none;
+            margin: 0;
+            font-size: 1.1em;
+        }
+    }
+
+    .nav {
+        float: none;
+        text-align: center;
+        a{
+            margin: 0 .5em;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #timeline {
+        .listing{
+            .img_wrapper{
+                margin-right: 1em;
+                img{
+                    width: 50px;
+                    
+                }
+            }
+            .info {
+                width: 100%;
+                padding: .4em 0 0 0;
+                .job_title{
+                    font-size: 1.25em;
+                }
+            }
+            .job_type{
+                display: none;
+            }
         }
     }
 }

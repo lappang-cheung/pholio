@@ -66,7 +66,7 @@ body {
     position: relative;
     z-index: 1;
     display: table;
-    width: 100%;
+    width: 96%;
     transition: all .3s ease-in-out; }
     #timeline .listing:hover {
       cursor: pointer;
@@ -158,3 +158,35 @@ body {
     .load_more .button:hover {
       border: 2px solid #34314c;
       color: #34314c; }
+
+@media only screen and (max-width: 768px) {
+  .main_header {
+    margin: 3em 0; }
+  .logo {
+    display: block;
+    margin: 0 auto;
+    text-align: center; }
+    .logo img {
+      float: none; }
+    .logo h1 {
+      float: none;
+      margin: 0;
+      font-size: 1.1em; }
+  .nav {
+    float: none;
+    text-align: center; }
+    .nav a {
+      margin: 0 .5em; } }
+
+@media only screen and (max-width: 600px) {
+  #timeline .listing .img_wrapper {
+    margin-right: 1em; }
+    #timeline .listing .img_wrapper img {
+      width: 50px; }
+  #timeline .listing .info {
+    width: 100%;
+    padding: .4em 0 0 0; }
+    #timeline .listing .info .job_title {
+      font-size: 1.25em; }
+  #timeline .listing .job_type {
+    display: none; } }
