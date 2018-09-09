@@ -23,4 +23,4 @@ Pholio is a simple solution for students & professionals who does not have time 
 
 ## Authors
 - Leo Cheung (lappangcheung@gmail.com)
-- Saleh Abdel Motaal
+- Saleh Abdel Motaal (saleh@grasppe.com)
